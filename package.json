@@ -1,0 +1,39 @@
+{
+  "name": "openbooks",
+  "version": "1.0.0",
+  "description": "Search for books, read books using Open Library API",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "start-server": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pijushbarik/openbooks.git"
+  },
+  "keywords": [
+    "books",
+    "books-api",
+    "open-books"
+  ],
+  "author": "Pijush Barik (pijush.barik8@gmail.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pijushbarik/openbooks/issues"
+  },
+  "homepage": "https://github.com/pijushbarik/openbooks#readme",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-graphql": "^0.9.0",
+    "graphql": "^14.5.7",
+    "lodash": "^4.17.15"
+  },
+  "devDependencies": {
+    "concurrently": "^4.1.2",
+    "dotenv": "^8.1.0",
+    "nodemon": "^1.19.2"
+  }
+}
